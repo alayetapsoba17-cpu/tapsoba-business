@@ -2,15 +2,41 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Tapsoba Business</title>
+<title>Tapsoba Business – Site Officiel</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-body{margin:0;font-family:Arial;background:#f2f2f2}
-header{background:#0fb9b1;color:white;text-align:center;padding:30px}
-.container{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:30px}
-.card{background:white;padding:20px;border-radius:12px;text-align:center;box-shadow:0 5px 15px rgba(0,0,0,.15)}
-.card a{display:inline-block;margin-top:10px;padding:10px 15px;background:#0fb9b1;color:white;text-decoration:none;border-radius:8px}
+body{margin:0;font-family:Arial;background:#f4f6f8}
+header{
+  background:#0fb9b1;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+.sections{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+  padding:30px;
+}
+.card{
+  background:white;
+  border-radius:16px;
+  padding:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+  text-align:center;
+  transition:.3s;
+}
+.card:hover{transform:translateY(-6px)}
+.card a{
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 20px;
+  background:#0fb9b1;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+}
 </style>
 </head>
 
@@ -19,13 +45,24 @@ header{background:#0fb9b1;color:white;text-align:center;padding:30px}
 <header>
 <img src="logo-tapsoba-business.png" width="90"><br>
 <h1>Tapsoba Business</h1>
-<p>Commerce & Services</p>
+<p>Vente & Services professionnels</p>
 </header>
 
-<div class="container">
-<div class="card"><h3>🧱 Matériaux de construction</h3><a href="construction.html">Entrer</a></div>
-<div class="card"><h3>🏡 Tapis de décoration</h3><a href="tapis.html">Entrer</a></div>
-<div class="card"><h3>🎨 Confection & Design</h3><a href="design.html">Entrer</a></div>
+<div class="sections">
+  <div class="card">
+    <h2>🧱 Matériaux de construction</h2>
+    <a href="construction.html">Entrer</a>
+  </div>
+
+  <div class="card">
+    <h2>🏡 Tapis de décoration</h2>
+    <a href="tapis.html">Entrer</a>
+  </div>
+
+  <div class="card">
+    <h2>🎨 Confection & Design</h2>
+    <a href="design.html">Entrer</a>
+  </div>
 </div>
 
 </body>
