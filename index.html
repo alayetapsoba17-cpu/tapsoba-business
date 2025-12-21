@@ -1,99 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Tapsoba Business</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Tapsoba Business</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #000;
-            color: #fff;
-        }
-        header {
-            text-align: center;
-            padding: 30px;
-            background: #111;
-        }
-        header img {
-            width: 180px;
-        }
-        section {
-            padding: 30px;
-        }
-        h2 {
-            color: #00ffd5;
-        }
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .product {
-            background: #111;
-            padding: 15px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .contact a {
-            display: block;
-            margin: 10px 0;
-            color: #00ffd5;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111;
-            opacity: 0.7;
-        }
-    </style>
+<style>
+body{margin:0;font-family:Arial;background:#f2f2f2}
+header{background:#0fb9b1;color:white;text-align:center;padding:30px}
+.container{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:30px}
+.card{background:white;padding:20px;border-radius:12px;text-align:center;box-shadow:0 5px 15px rgba(0,0,0,.15)}
+.card a{display:inline-block;margin-top:10px;padding:10px 15px;background:#0fb9b1;color:white;text-decoration:none;border-radius:8px}
+</style>
 </head>
 
 <body>
 
 <header>
-    <img src="logo-tapsoba-business.png" alt="Tapsoba Business">
-    <h1>Tapsoba Business</h1>
-    <p>Commerce • Services • Opportunités</p>
+<img src="logo-tapsoba-business.png" width="90"><br>
+<h1>Tapsoba Business</h1>
+<p>Commerce & Services</p>
 </header>
 
-<section>
-    <h2>🛒 Nos Marchandises</h2>
-
-    <div class="products">
-        <div class="product">
-            <img src="produit1.jpg" alt="Produit 1">
-            <h3>Produit 1</h3>
-            <p>Description du produit</p>
-        </div>
-
-        <div class="product">
-            <img src="produit2.jpg" alt="Produit 2">
-            <h3>Produit 2</h3>
-            <p>Description du produit</p>
-        </div>
-    </div>
-</section>
-
-<section class="contact">
-    <h2>💬 Nos échanges</h2>
-
-    <a href="https://wa.me/22669802993">📱 WhatsApp</a>
-    <a href="mailto:tapsobabusiness@gmail.com">📧 Email</a>
-    <a href="https://facebook.com">📘 Facebook</a>
-</section>
-
-<footer>
-    © 2025 Tapsoba Business – Tous droits réservés
-</footer>
+<div class="container">
+<div class="card"><h3>🧱 Matériaux de construction</h3><a href="construction.html">Entrer</a></div>
+<div class="card"><h3>🏡 Tapis de décoration</h3><a href="tapis.html">Entrer</a></div>
+<div class="card"><h3>🎨 Confection & Design</h3><a href="design.html">Entrer</a></div>
+</div>
 
 </body>
 </html>
