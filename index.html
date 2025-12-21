@@ -2,87 +2,98 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Tapsoba Business – Site Officiel</title>
-
-    <!-- SEO -->
-    <meta name="description" content="Site officiel de Tapsoba Business. Identité de marque et logo officiel.">
+    <title>Tapsoba Business</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Logo Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Tapsoba Business",
-      "url": "https://alayetapsoba17-cpu.github.io/tapsoba-business/",
-      "logo": "logo-tapsoba-business.png"
-    }
-    </script>
 
     <style>
         body {
             margin: 0;
-            padding: 0;
-            background-color: #000;
+            font-family: Arial, sans-serif;
+            background: #000;
             color: #fff;
-            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+            background: #111;
+        }
+        header img {
+            width: 180px;
+        }
+        section {
+            padding: 30px;
+        }
+        h2 {
+            color: #00ffd5;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: #111;
+            padding: 15px;
+            border-radius: 10px;
             text-align: center;
         }
-
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
+        .product img {
+            width: 100%;
+            border-radius: 8px;
         }
-
-        img {
-            max-width: 300px;
-            margin: 40px auto;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        p {
+        .contact a {
+            display: block;
+            margin: 10px 0;
+            color: #00ffd5;
+            text-decoration: none;
             font-size: 18px;
-            line-height: 1.6;
-            opacity: 0.9;
         }
-
         footer {
-            margin-top: 60px;
-            font-size: 14px;
-            opacity: 0.6;
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            opacity: 0.7;
         }
     </style>
 </head>
+
 <body>
 
-    <div class="container">
-        <img src="logo-tapsoba-business.png" alt="Logo officiel Tapsoba Business">
+<header>
+    <img src="logo-tapsoba-business.png" alt="Tapsoba Business">
+    <h1>Tapsoba Business</h1>
+    <p>Commerce • Services • Opportunités</p>
+</header>
 
-        <h1>Tapsoba Business</h1>
+<section>
+    <h2>🛒 Nos Marchandises</h2>
 
-        <p>
-            Bienvenue sur le site officiel de <strong>Tapsoba Business</strong>.
-        </p>
+    <div class="products">
+        <div class="product">
+            <img src="produit1.jpg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>Description du produit</p>
+        </div>
 
-        <p>
-            Cette page sert de référence officielle pour l'identité visuelle
-            et le logo de la marque Tapsoba Business.
-        </p>
-
-        <p>
-            Le logo affiché est le logo officiel utilisé sur toutes
-            les plateformes numériques.
-        </p>
+        <div class="product">
+            <img src="produit2.jpg" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>Description du produit</p>
+        </div>
     </div>
+</section>
 
-    <footer>
-        © 2025 Tapsoba Business – Tous droits réservés
-    </footer>
+<section class="contact">
+    <h2>💬 Nos échanges</h2>
+
+    <a href="https://wa.me/22669802993">📱 WhatsApp</a>
+    <a href="mailto:tapsobabusiness@gmail.com">📧 Email</a>
+    <a href="https://facebook.com">📘 Facebook</a>
+</section>
+
+<footer>
+    © 2025 Tapsoba Business – Tous droits réservés
+</footer>
 
 </body>
 </html>
